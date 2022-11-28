@@ -96,7 +96,7 @@
     "@sentry/types" "7.21.1"
     tslib "^1.9.3"
 
-"@sentry/vite-plugin@^0.2.1":
+"@sentry/vite-plugin@^0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@sentry/vite-plugin/-/vite-plugin-0.2.2.tgz#27e17bb76bf3a54cffebc79941de8d08f4617000"
   integrity sha512-sZOAarWZIUEU/Hf67JTnKoullSnO5MELFNdV9KqHTBUZD2wuDvEQbj4ymF8MCMnSStIzt2zfS2eaPTQRQQIgTw==

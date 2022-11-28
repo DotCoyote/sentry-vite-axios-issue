@@ -11,10 +11,11 @@ export default ({ mode }) => {
         build: {
             sourcemap: true, // Source map generation must be turned on
         },
+
         plugins: [
             vue(),
             sentryVitePlugin({
-                include: './dist',
+                include: '.',
                 ignore: ['node_modules', 'vite.config.ts'],
                 org: process.env.VITE_SENTRY_ORG,
                 project: process.env.VITE_SENTRY_PROJECT,
